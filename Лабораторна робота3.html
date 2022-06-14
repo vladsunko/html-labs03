@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Лабораторна робота №3</title>
+</head>
+<body>
+	<h1><p align="center"> Лабораторна робота №3 </p></h1>
+   <div>
+		<form action="#" method="get" enctype="multipart/form-data">
+			<center>
+		<table border="1">
+			<tr>
+				<th colspan="2" >
+					Виберіть клас авто
+				</th>
+			</tr>
+			<tr>
+				<td width="53%">
+					<label  for="name" >Назва моделі:</label>
+					
+				</td>
+				<td>
+					<input type="text" required placeholder="Введіть назву моделі">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Тип кузова:
+				</td>
+				<td>
+					<input type="radio">
+					<label >Седан</label>
+					<br>
+					<input type="radio">
+					<label >Хетчбек</label>
+					<br>
+					<input type="radio"> 
+
+					<label >Купе</label>
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Вибір автосалону:</label>
+				</td>
+				<td>
+					<select id="place_avtosalon" >
+						<option value="1">м.Київ</option>
+						<option value="2">м.Чернігів</option>
+						<option value="3">м.Харків</option>
+						<option value="4">м.Львів</option>
+					</select>
+				</td>
+
+			</tr>
+			<tr>
+				<td>
+					Комплектація:
+				</td>
+				<td>
+					<input type="checkbox" >
+					<label>Кондиціонер</label>
+					<input type="checkbox" >
+					<label >Комплект гуми</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<label >Короткі побожання з приводу авто</label> <br>
+					<textarea  required placeholder="Короткі побожання" ></textarea>
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan="2">
+					<button type="submit">Підібрати автомобіль</button>
+				</td>
+			</tr>
+		  </center>
+		</table>
+	</form>	
+	</div>
+</body>
+</html>
